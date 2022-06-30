@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react'
 // import SideMenu from '@/components/sandbox/SideMenu'
 import TopHeader from '@/components/TopHeader/TopHeader.js'
-// import NewsRouter from '@/components/sandbox/NewsRouter'
+import BannerContent from '@/components/BannerContent/BannerContent.js'
+import ComCollaborate from '@/components/ComCollaborate/ComCollaborate.js'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 //css
 import './index.css'
 //antd
 import { Layout } from 'antd'
-const {  Content } = Layout;
+const { Content } = Layout;
 
 export default function NewsSandBox() {
     // 顶部进度条渲染开始
@@ -36,10 +37,12 @@ export default function NewsSandBox() {
         //     </Layout>
         // </Layout>
         <Layout>
-            <TopHeader>Header</TopHeader>
-            <Layout>
-                <Content>Content</Content>
-            </Layout>
+            <TopHeader></TopHeader>
+            <Content>
+                <ComCollaborate></ComCollaborate>
+                <BannerContent></BannerContent>
+                <BannerContent></BannerContent>
+            </Content>
         </Layout>
     )
 }
