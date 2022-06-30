@@ -1,0 +1,63 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topHeader-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-header-box {
+    display: flex;
+}
+
+.right-login-box {
+    height: 70PX;
+}
+
+.header-logo-box {
+    line-height: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-nav-box {
+    margin-left: 48px;
+}
+
+.header-nav-list {
+    display: flex;
+    /* padding-top: 24px; */
+}
+
+.header-nav-item {
+    display: flex;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: .6px;
+    margin-left: 32px;
+}
+.nav-title-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-try{
+    margin-left: 12px;
+}
+.header-phone-num{
+    padding-right: 20px;
+    height: 32px;
+    line-height: 32px;
+}
+.wt-phone{
+    height: auto;
+    width: 106px;
+}
