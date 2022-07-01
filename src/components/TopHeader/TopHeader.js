@@ -32,7 +32,7 @@ const TopHeader = (props) => {
 
 
     return (
-        <Header className="site-layout-background" style={{ padding: '0 16px' }}>
+        <Header>
             <div className='topHeader-wrapper wrapper'>
                 <div className='left-header-box'>
                     <div className='header-logo-box'>

@@ -15,6 +15,24 @@ code {
 }
 
 /* 页面滚动条样式 */
-::-webkit-scrollbar {width:5px;height:5px;position:absolute;}
-::-webkit-scrollbar-thumb {background-color:#1890ff}
-::-webkit-scrollbar-track {background-color:#ddd}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1890ff
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ddd
+}
+
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}

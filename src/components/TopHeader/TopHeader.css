@@ -1,17 +1,19 @@
-.wrapper {
+.ant-layout-header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
     width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.wrapper {
+    align-self: center;
 }
 
 .topHeader-wrapper {
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    /* background: #ffffff; */
+    justify-content: space-around;
 }
 
 .left-header-box {
@@ -19,7 +21,7 @@
 }
 
 .right-login-box {
-    height: 70PX;
+    margin-left: 220px;
 }
 
 .header-logo-box {
@@ -31,12 +33,11 @@
 }
 
 .center-nav-box {
-    margin-left: 48px;
+    /* margin-left: 48px; */
 }
 
 .header-nav-list {
     display: flex;
-    /* padding-top: 24px; */
 }
 
 .header-nav-item {
@@ -46,20 +47,24 @@
     letter-spacing: .6px;
     margin-left: 32px;
 }
-.nav-title-icon{
+
+.nav-title-icon {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.btn-try{
+
+.btn-try {
     margin-left: 12px;
 }
-.header-phone-num{
+
+.header-phone-num {
     padding-right: 20px;
     height: 32px;
     line-height: 32px;
 }
-.wt-phone{
+
+.wt-phone {
     height: auto;
     width: 106px;
 }
