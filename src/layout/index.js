@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 // import SideMenu from '@/components/sandbox/SideMenu'
 import TopHeader from '@/components/TopHeader/TopHeader.js'
 import BannerContent from '@/components/BannerContent/BannerContent.js'
-import ComCollaborate from '@/components/ComCollaborate/ComCollaborate.js'
+import ComScen from '@/components/ComScen/ComScen.js'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 //css
@@ -39,9 +39,8 @@ export default function NewsSandBox() {
         <Layout>
             <TopHeader></TopHeader>
             <Content>
-                <ComCollaborate></ComCollaborate>
                 <BannerContent></BannerContent>
-                <BannerContent></BannerContent>
+                <ComScen></ComScen>
             </Content>
         </Layout>
     )

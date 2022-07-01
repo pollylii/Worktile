@@ -1,0 +1,79 @@
+.ComScen {
+    /* background-image: url('https://cdn.worktile.com/static/site/wt/img/common-cooperation-scene-bg.538508a.png');
+    box-sizing: border-box;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 80px 0;
+    background: red; */
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.scen-title {
+    display: block;
+    font-size: 36px;
+    color: #2a344b;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 900;
+    padding: 0px 0px 20px;
+}
+
+.scen-desc {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #2a344b;
+    line-height: 24px;
+    font-weight: 400px;
+    text-align: center;
+    padding: 0 0 40px;
+}
+
+.scen-content {
+    width: 100%;
+    padding: 0 40px;
+}
+
+.scen-swiper-box {
+    width: 100%;
+    display: flex;
+
+    .swiper-container {
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+
+        .scen-ul {
+            position: relative;
+            right: auto;
+            margin-right: 80px;
+            padding-top: 28px;
+        }
+
+        .scen-img {
+            height: 100%;
+            max-height: auto;
+            max-width: auto;
+            box-sizing: border-box;
+            box-shadow: 0px 2px 13px 0px rgb(35 61 173 / 23%);
+        }
+    }
+}
